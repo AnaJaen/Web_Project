@@ -1,0 +1,335 @@
+/* CSS Datei - Formatierung für CSS_BspXXX
+	 . (class) 	Klassen-Selektor
+	 						unabhängig von TAG
+	 # (ID)			ID-Selektor
+	 						jede ID nur einmal in Dokument - eindeutige Indentifizierung 
+	 						dient auch als Zugriff von Skriptsprachen
+***************************************************************************/
+body{
+	font-family:Helvetica, Arial,sans-serif;
+	width:auto;
+	margin-top: 5%;
+	padding:15px;
+}
+.background {
+	width:auto;
+	
+}
+
+header {
+
+	background: #fcfcd2;
+	height:220px;
+	width:auto;
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.headering h1 {
+	padding-left:30px;
+	text-decoration:underline;
+	color: #2F4F4F;
+	margin-top:30px;
+	font-family: Vivaldi, Monotipe Corsiva, Serif;
+	font-size: 40pt;
+	
+}
+
+.menu {
+	
+	position: static;
+}
+.menu ul {
+	list-style:none;
+	float: left;
+	padding: 2%;
+	width: 96%;
+	position: absolute;
+}
+
+.menu ul li {
+	float:left;
+	margin-right:15px;
+	margin-left:30px;
+	margin-top:10px;
+	background:#5a2d0c;
+	padding: 8px;
+	border-radius:12%;
+	font-size: 20px;
+	
+}
+
+.menu ul li a {
+	color: #fcfcd2;
+	text-decoration:none;
+}
+
+.menu ul li a:hover {
+	color: gold;
+}
+
+section {
+	background: #fcfcd2;
+	top:0;
+	padding:65px;
+	bottom: 0;
+}
+.Tabelle{
+	width:60%;
+	height:45%;
+	
+	
+}
+.tbl11{
+	width:40%;
+	float:center;
+	position:relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tbl12{
+	width:80%;
+	float:left;
+	position:relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	right:30px;
+}
+.bildBerliner{
+position: relative;
+}
+
+#Kursive {
+	font-style: italic;
+}
+
+div.21 {
+	width:auto;
+	height:25%;
+	float: left;
+	position: absolute;
+	margin:5%;
+	
+	
+}
+
+.img bild1{
+	width:15%;
+	height:auto;
+	position:relative;
+	left:60px;
+	top:1px;
+	
+	
+}
+.bild1{
+	width:10%;
+	height:auto;
+	border:4px solid #ffffff; 
+	
+}
+.img bild2{
+	position: absolute;
+	float:left;
+	
+
+}
+.bild2{
+	width:10%;
+	height:auto;
+	border:4px solid #ffffff; 
+	margin-left:130px;
+	margin:10px;
+	top: 100px;
+	left: 90px;
+	
+}
+
+
+.img bild3{
+	position: absolute;
+	float:left;
+}
+
+.bild3{
+	width:11%;
+	height:auto;
+	border:4px solid #ffffff; 
+	margin-left:10px;
+	margin:10px;
+	top: 10px;
+	left: 3px;
+	
+}
+
+.img bild4{
+	position: absolute;
+	float:left;
+}
+
+.bild4{
+	width:13%;
+	height:auto;
+	border:4px solid #ffffff; 
+	margin-left:10px;
+	margin:10px;
+	top: 30px;
+	left: -40px;
+	right:520px;
+	
+}
+
+.img bild5{
+	position: absolute;
+	float:left;
+}
+
+.bild5{
+	width:10%;
+	height:auto;
+	border:3px solid #ffffff; 
+	margin-left:10px;
+	margin:10px;
+	top: -20px;
+	left: -83px;
+	right:520px;
+	
+}
+
+.img bild6{
+	position: absolute;
+	float:left;
+}
+
+.bild6{
+	width:10%;
+	height:auto;
+	border:3px solid #ffffff; 
+	margin-left:10px;
+	margin:10px;
+	top: -20px;
+	left: -83px;
+	right:520px;
+	
+}
+
+
+.bauteile {
+	border:3px solid #ccc;
+	float:left;
+	width:75%;
+	
+
+}
+
+.bau1 {
+	width:15%;
+	height:auto;
+	position:relative;
+	left:60px;
+	top:1px;
+	z-index:1;
+	
+}
+
+.bau2 {
+	width:20%;
+	height:auto;
+	position:relative;
+	left:45px;
+	top:5px;
+	z-index:2;
+}
+.bau3 {
+	width:15%;
+	height:auto;
+	position:relative;
+	left:35px;
+	top:10px;
+	z-index:3;
+}
+
+.bau4 {
+	width:15%;
+	height:auto;
+	position:relative;
+	left:25px;
+	top:15px;
+	z-index:4;
+}
+
+.bau5 {
+	width:15%;
+	height:auto;
+	position:relative;
+	left:15px;
+	top:20px;
+	z-index:5;
+}
+
+.bau6 {
+	width:15%;
+	height:auto;
+	position:relative;
+	left:5px;
+	top:25px;
+	z-index:6;
+}
+
+.beispiel11{
+	margin: 2px solid;
+	width:25%;
+	height:auto;
+	border:1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.beispiel12{
+	margin: 2px solid;
+	width:25%;
+	height:auto;
+	border:1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;
+}
+.beispiel21 {
+	margin: 2px solid;
+	width:25%;
+	height:auto;
+	border:1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.beispiel31{
+	margin: 2px solid;
+	width:25%;
+	height:auto;
+	border:1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.beispiel32 {
+	margin: 2px solid;
+	width:25%;
+	height:auto;
+	border:1px solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;
+}
+
+footer {
+	text-align: center;
+	font-family: Garamond, Cambria, Batang;
+	color:#fcfcd2;
+}
+
